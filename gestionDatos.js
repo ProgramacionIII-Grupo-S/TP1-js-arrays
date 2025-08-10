@@ -5,3 +5,11 @@ const productos = [
     {id: 4, nombre: "Pizza", precio: 3000, stock: 12},
     {id: 5, nombre: "Pastel", precio: 1800, stock: 6}
 ]
+
+console.log("Operaciones Básicas y Acceso:");
+
+console.log(productos.length);
+console.log(productos[1].nombre);
+console.log(productos[3].nombre);
+
+console.log(); //salto de línea
