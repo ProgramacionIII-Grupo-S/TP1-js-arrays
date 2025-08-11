@@ -15,3 +15,16 @@ console.log(productos[1].nombre);
 console.log(productos[3].nombre);
 console.log(); //salto de línea
 
+// 3. Recorrido del array
+
+console.log("Recorrido con for...of:");
+for (const producto of productos) {
+    console.log(`Nombre: ${producto.nombre}, Precio: ${producto.precio}`);
+}
+
+console.log(); 
+
+console.log("Recorrido con forEach:");
+productos.forEach(producto => {
+    console.log(`Producto: ${producto.nombre}, Precio: ${producto.precio}`);
+});
