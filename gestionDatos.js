@@ -37,3 +37,6 @@ if (productoId) {
   console.log(`\nProducto con ID ${idEspecifico} no encontrado.`);
 }
 
+// 4.8 Ordenar productos por precio (descendente)
+const productosOrdenados = [...productos].sort((a, b) => b.precio - a.precio);
+console.log("\nProductos ordenados por precio (desc):", productosOrdenados);
