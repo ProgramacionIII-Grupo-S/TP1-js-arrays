@@ -14,18 +14,48 @@ const productos = [
     {id: 5, nombre: "Pastel", precio: 1800, stock: 6}
 ]
 
-//2. Operaciones Básicas y Acceso
+//2. Operaciones basicas y acceso
 
 console.log("Operaciones Básicas y Acceso:");
 
 console.log(productos.length);
 console.log(productos[1].nombre);
 console.log(productos[3].nombre);
-console.log(); //salto de línea
+console.log(); //salto de linea
 
+
+//3. Recorrido del Array
+console.log("Recorrido del array con for y forEach.");
+console.log()
+
+for (let p of productos){
+ console.log(`nombre: ${p.nombre} - precio: ${p.precio}`)
+};
+
+console.log();
+
+productos.forEach(p=> {console.log (`nombre: ${p.nombre}, precio: ${p.precio}`)});
+
+console.log();
 
 
 // 4. Manipulación de Arrays
+console.log("Manipulacion de arrays.");
+console.log()
+
+//4.1 Agregar dos elementos al final del array productos utilizando push().
+
+productos.push ({id:6, nombre:"Hamburguesa", precio: 4500, stock: 12});
+
+productos.push ({id:7, nombre:"Sopa paraguaya", precio: 5000, stock: 7});
+console.log("Productos agregados: ", productos);
+
+console.log()
+
+//4.2 Eliminar el ultimo elemento del array productos utilizando pop().
+
+productos.pop();
+console.log("Eliminacion del ultimo producto: ", productos);
 
 
 // 4.7 Buscar producto con id específico
