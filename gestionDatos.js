@@ -78,4 +78,3 @@ if (productoId) {
 // 4.8 Ordenar productos por precio (descendente)
 const productosOrdenados = [...productos].sort((a, b) => b.precio - a.precio);
 console.log("\nProductos ordenados por precio (desc):", productosOrdenados);
->>>>>>> 456b059f700bc4c0a85436abe4673c10171ecb95
