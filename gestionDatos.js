@@ -23,22 +23,6 @@ console.log(productos[1].nombre);
 console.log(productos[3].nombre);
 console.log(); //salto de linea
 
-<<<<<<< HEAD
-// 3. Recorrido del array
-
-console.log("Recorrido con for...of:");
-for (const producto of productos) {
-    console.log(`Nombre: ${producto.nombre}, Precio: ${producto.precio}`);
-}
-
-console.log(); 
-
-console.log("Recorrido con forEach:");
-productos.forEach(producto => {
-    console.log(`Producto: ${producto.nombre}, Precio: ${producto.precio}`);
-});
-=======
-
 //3. Recorrido del Array
 console.log("Recorrido del array con for y forEach.");
 console.log()
@@ -72,6 +56,15 @@ console.log()
 productos.pop();
 console.log("Eliminacion del ultimo producto: ", productos);
 
+// 4.5 crear productosConStock usando filter()
+const productosConStock = productos.filter(producto => producto.stock > 0);
+console.log("Productos con stock mayor a 0:", productosConStock);
+console.log();
+
+// 4.6 crear nombresProductos usando map()
+const nombresProductos = productos.map(producto => producto.nombre);
+console.log("Nombres de todos los productos:", nombresProductos);
+console.log();
 
 // 4.7 Buscar producto con id específico
 let idEspecifico = 2;
