@@ -5,7 +5,6 @@
 // ===============================
 
 //1. Configuración inicial
-
 const productos = [
     {id: 1, nombre: "Chipa", precio: 1500, stock: 10},
     {id: 2, nombre: "Empanada", precio: 2000, stock: 5},
@@ -56,6 +55,14 @@ console.log()
 productos.pop();
 console.log("Eliminacion del ultimo producto: ", productos);
 
+// 4.3 Agregar un nuevo elemento al inicio del array productos utilizando unshift().
+productos.unshift({ id: 8, nombre: "Pollo Frito", precio: 7250, stock: 6 });
+console.log("\nAgregando elemento con unshift:", productos);
+
+// 4.4 Elimina el primer elemento del array productos utilizando shift().
+productos.shift();
+console.log("\nEliminando elemento con shift:", productos);
+
 // 4.5 crear productosConStock usando filter()
 const productosConStock = productos.filter(producto => producto.stock > 0);
 console.log("Productos con stock mayor a 0:", productosConStock);
@@ -77,4 +84,4 @@ if (productoId) {
 
 // 4.8 Ordenar productos por precio (descendente)
 const productosOrdenados = [...productos].sort((a, b) => b.precio - a.precio);
-console.log("\nProductos ordenados por precio (desc):", productosOrdenados);
+console.log("\nProductos ordenados por precio (decreciente):", productosOrdenados);
