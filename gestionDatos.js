@@ -1,7 +1,7 @@
 // ===============================
 // Trabajo Práctico Arrays - Programación III
 // Grupo Nº: Grupo S
-// Integrantes: Priscila Magali Aguilar, Yamila Maillen Aguilar, Eugenia Blanc, Lisette Cartier, Marcos Gabriel Gainza, Yanina Unrein
+// Integrantes:  Aguilar Priscila Magali, Aguilar Yamila Maillen, Blanc Eugenia, Cartier Lisette, Gainza Marcos Gabriel, Unrein Yanina Soledad
 // ===============================
 
 //1. Configuración inicial

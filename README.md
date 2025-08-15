@@ -66,12 +66,12 @@ El script está diseñado para ser ejecutado en **Node.js**.
 
 ## 👥 Integrantes del Grupo   
 
-- [Priscila Magali Aguilar](https://github.com/PriscilaAguilar1214)
-- [Yamila Maillen Aguilar](https://github.com/YamilaAguilar)
-- [Eugenia Blanc](https://github.com/eugenialite)
-- [Lisette Cartier](https://github.com/usuario)
-- [Marcos Gabriel Gainza](https://github.com/marcosgainza)
-- [Yanina Unrein](https://github.com/Yanina-Unrein)
+- [Aguilar, Priscila Magali](https://github.com/PriscilaAguilar1214)
+- [Aguilar, Yamila Maillen](https://github.com/YamilaAguilar)
+- [Blanc, Eugenia](https://github.com/eugenialite)
+- [Cartier, Lisette](https://github.com/usuario)
+- [Gainza, Marcos Gabriel](https://github.com/marcosgainza)
+- [Unrein, Yanina Soledad](https://github.com/Yanina-Unrein)
 
 ## Número de grupo: 
 - Grupo S
